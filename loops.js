@@ -1,6 +1,7 @@
 function forLoop(array) {
   for(var i = 0; i<25; i++) {
-    console.log("Hello World number " + i);
+    if(i === 1) {
+      console.log(`I am ${i} strange loops.`);
   }
 
 }
